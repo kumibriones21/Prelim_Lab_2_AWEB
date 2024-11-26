@@ -1,0 +1,61 @@
+/* Skills Section Container */
+.skills-section {
+    display: flex;
+    justify-content: space-between; /* Ensure columns are spaced apart */
+    background-color: #f4f4f4; 
+    border: 1px solid #ddd; 
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    max-width: 800px; /* Adjust container width */
+    margin: 20px auto;
+}
+
+/* Skills Column */
+.skills-column {
+    width: 48%; /* Ensure columns fit side by side */
+}
+
+/* Heading Style */
+.skills-section h2 {
+    text-align: center;
+    color: #333; 
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 15px;
+}
+
+/* List Style */
+.skills-list {
+    list-style: none;
+    padding: 0; 
+}
+
+/* Individual List Items */
+.skills-list li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #ffffff; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #555; 
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+}
+
+/* Custom Bullet Icon */
+.skills-list li::before {
+    content: '✔'; 
+    font-size: 18px;
+    color: #4caf50; 
+}
+
+/* Hover Effect for List Items */
+.skills-list li:hover {
+    background-color: #e0f7fa; /* Light blue background on hover */
+    transform: scale(1.05); /* Slightly increase size */
+    border-color: #4caf50; /* Change border color */
+}

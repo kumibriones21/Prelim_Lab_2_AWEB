@@ -1,0 +1,79 @@
+/* Main container with a two-column layout */
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  /* Left column */
+  .left-column {
+    flex: 1; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Right column */
+  .right-column {
+    flex: 2; 
+    display: flex;
+    flex-direction: column;
+    background-color: #f4ece5; 
+  }
+  
+  /* Top row */
+  .top-row {
+    flex: 1;
+    background-color: #ffffff; 
+    padding: 20px;
+  }
+  
+  /* Bottom row */
+  .bottom-row {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  /* Profile image */
+  .profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  /* General styles for text */
+  h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  ul {
+    padding-left: 20px;
+    list-style: disc;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #f4ece5;
+    color: #333;
+  }
+  
+  hr {
+    border: 1px solid pink; 
+    margin: 20px 0;  
+}

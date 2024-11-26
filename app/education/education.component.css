@@ -1,0 +1,54 @@
+/* Container Styling */
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Name Styling */
+.container-name {
+    margin: 0;
+    background-color: skyblue;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Education Section */
+.resume-education {
+    margin: 20px;
+}
+
+/* Header Style */
+.resume-education h2 {
+    margin-bottom: 10px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease-in-out; 
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+/* Hover Effect for Table Rows */
+table tr:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+}
+
+table:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
